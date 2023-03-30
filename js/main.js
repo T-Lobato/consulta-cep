@@ -11,7 +11,7 @@ btnPesquisarCEP.addEventListener("click", event => {
     event.preventDefault();
 
     const valorDoCep = inputDoCep.value;
-    const url = `http://viacep.com.br/ws/${valorDoCep}/json`;
+    const url = `https://viacep.com.br/ws/${valorDoCep}/json`;
 
     fetch(url).then(response => {
         return response.json();
