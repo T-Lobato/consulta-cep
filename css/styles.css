@@ -1,0 +1,44 @@
+body {
+    background-color: slategray;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    max-width: 20%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+.container__results__names {
+    margin-bottom: 0.5em;
+}
+
+.container__results__output {
+    padding: 5px;
+    width: 90%;
+}
+
+.container__cep {
+    padding: 5px;
+    width: 90%;
+}
+
+.container__botao {
+    margin-top: 0.6em;
+}
+
+.container__botao-pesquisar {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+.container__botao-limpar {
+    background-color: red;
+    color: white;
+    padding: 5px;
+}

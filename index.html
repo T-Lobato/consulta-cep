@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Cep</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h4 class="container__results__names">CEP</h4>
+        <input type="number" id="cep" class="container__cep" placeholder="Digite um cep">
+        <div class="container__results">
+            <h4 class="container__results__names">RUA:</h4>
+            <input id="rua" class="container__results__output" type="text" id="rua" readonly>
+
+            <h4 class="container__results__names">CIDADE:</h4>
+            <input id="cidade" class="container__results__output" type="text" id="cidade" readonly>
+
+            <h4 class="container__results__names">ESTADO:</h4>
+            <input id="estado" class="container__results__output" type="text" id="estado" readonly>
+        </div>
+        <div class="container__botao">
+            <button type="submit" id="btnPesquisar" class="container__botao-pesquisar">PESQUISAR</button>
+            <button type="button" id="btnLimpar" class="container__botao-limpar">LIMPAR</button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
